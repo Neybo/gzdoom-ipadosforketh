@@ -6,9 +6,6 @@ workflows:
     integrations:
       app_store_connect: codemagic
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: io.codemagic.sample.iosnative
       vars:
         BUNDLE_ID: "io.codemagic.sample.iosnative"
         XCODE_WORKSPACE: "CodemagicSample.xcworkspace"
